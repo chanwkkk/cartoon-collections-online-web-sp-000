@@ -25,7 +25,7 @@ def find_the_cheese(array)# code an argument here
   array.find do |word|
     if word=="cheddar" ||word=="gouda"||word=="camembert"
       return word
-    else nil
+    else return nil
     end
   end
 
